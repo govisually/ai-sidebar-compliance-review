@@ -804,27 +804,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Main Content */}
-<<<<<<< HEAD
-      <div className="flex items-center justify-center min-h-screen p-8">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold text-[#111111] mb-8">Welcome to GoVisually</h1>
-          <div className="space-y-4">
-            <Button
-              onClick={() => setIsSheetOpen(true)}
-              className="bg-[#FC4E46] hover:bg-[#E0453E] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md block w-full max-w-sm mx-auto"
-            >
-              Open label compliance review
-            </Button>
-            <Link href="/mood-orbs">
-              <Button
-                variant="outline"
-                className="border-[#0D6ABE] text-[#0D6ABE] hover:bg-[#F3F8FC] px-8 py-3 rounded-lg font-medium transition-all duration-200 shadow-sm hover:shadow-md block w-full max-w-sm mx-auto"
-              >
-                <Sparkles className="w-4 h-4 mr-2" />
-                View Mood Orbs Demo
-              </Button>
-            </Link>
-=======
       <div className="min-h-screen p-8">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-between mb-8">
@@ -944,7 +923,6 @@ export default function HomePage() {
                 </div>
               )}
             </div>
->>>>>>> 009be4025ae2ababfbd7899492db4ba9dfcb7dcc
           </div>
         </div>
       </div>
